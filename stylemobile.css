@@ -1,0 +1,49 @@
+/*-----------------CSS3 FOR MOBILE-----------------*/
+
+@media screen and (max-width: 480px){
+	.body{
+		width: 90%;
+		font-size: 95%;
+	}
+	/*-------------mian header for mobile----------*/
+
+.mainHeader nav {
+		height: 200px;
+}
+
+.mainHeader nav ul li{
+	display: inline;
+}
+.mainHeader nav ul {
+	width: 100%;
+	padding: 0;
+}
+.mainHeader a:link ,.mainHeader a:visited{
+
+	display: block;
+
+}
+.mianContent{
+	width:100%;
+	
+}
+.theSidebar{
+	width: 94%;
+	margin:10px;
+
+}
+}
+
+
+@media screen and (max-width: 680px){
+	.body{
+		width: 90%;
+		font-size: 95%;
+	}
+    .mainHeader nav{
+	    font-size: 70%;
+    }
+
+
+}
+
